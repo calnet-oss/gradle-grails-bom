@@ -64,7 +64,7 @@ repositories {
 
 dependencyManagement {
     imports {
-        mavenBom "edu.berkeley.calnet:gradle-grails-bom:2.5.4"
+        mavenBom "edu.berkeley.calnet:gradle-grails-bom:${grails.grailsVersion}"
     }
 }
 
