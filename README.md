@@ -3,11 +3,11 @@
 This publishes a Maven `pom.xml` containing the same dependencies as when
 using Grails 2.x `grails create-app` and `grails create-plugin`.  This is
 used as a standard Grails "BOM" when using the
-[io.spring.gradle:dependency-management-plugin][https://github.com/spring-gradle-plugins/dependency-management-plugin]
+[io.spring.gradle:dependency-management-plugin](https://github.com/spring-gradle-plugins/dependency-management-plugin)
 for Gradle.
 
 The
-[org.grails:grails-gradle-plugin][https://github.com/grails/grails-gradle-plugin]
+[org.grails:grails-gradle-plugin](https://github.com/grails/grails-gradle-plugin)
 can then be used to switch to using a Gradle build system for Grails 2.x. 
 Use version 2.2.0.RC1 or later (in the 2.x line) of this plugin for Grails
 2.5.4.
@@ -20,7 +20,7 @@ to upgrade to Grails 3.
 
 ## License
 
-[BSD two-clause][LICENSE.txt]
+[BSD two-clause](LICENSE.txt)
 
 ## Versioning
 
@@ -86,6 +86,6 @@ dependencies {
 
 ## Extra Notes
 
-The [bin/generateDependencyMgmtBlock.sh][bin/generateDependencyMgmtBlock.sh]
+The [bin/generateDependencyMgmtBlock.sh](bin/generateDependencyMgmtBlock.sh)
 script is used to generate the Grails dependencies listed in
-[build.gradle][build.gradle] for the BOM.
+[build.gradle](build.gradle) for the BOM.
