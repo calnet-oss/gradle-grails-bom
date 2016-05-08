@@ -9,8 +9,8 @@ for Gradle.
 The
 [org.grails:grails-gradle-plugin](https://github.com/grails/grails-gradle-plugin)
 can then be used to switch to using a Gradle build system for Grails 2.x. 
-Use version 2.2.0.RC1 or later (in the 2.x line) of this plugin for Grails
-2.5.4.
+Use version 2.2.0.RC1 or later (in the 2.x line) of grails-gradle-plugin for
+Grails 2.5.4.
 
 This can also help ease the transition from Grails 2 to Grails 3 by helping
 you to convert your Grails 2 applications and plugins to Gradle before
