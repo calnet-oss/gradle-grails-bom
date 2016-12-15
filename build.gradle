@@ -51,7 +51,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath "io.spring.gradle:dependency-management-plugin:${spring_depmgmt_version}"
+        classpath group: 'io.spring.gradle', name: 'dependency-management-plugin', version: spring_depmgmt_version
     }
 }
 
