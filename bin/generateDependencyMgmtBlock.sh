@@ -4,7 +4,7 @@ if [ -z "$GRAILS_CMD" ]; then
   GRAILS_CMD=grails
 fi
 if [ -z "$EXPECTED_GRAILS_VERSION" ]; then
-  EXPECTED_GRAILS_VERSION=2.5.4
+  EXPECTED_GRAILS_VERSION=2.5.5
 fi
 
 REAL_GRAILS_VERSION=`$GRAILS_CMD --version|cut -d" " -f3`
